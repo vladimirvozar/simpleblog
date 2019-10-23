@@ -24,7 +24,7 @@ namespace SimpleBlog
         {
             var config = new Configuration();
 
-            // configure the connestion string
+            // configure the connection string
             config.Configure();
 
             // add our mappings
