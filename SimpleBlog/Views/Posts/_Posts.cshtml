@@ -6,22 +6,22 @@
 }
 
 <ul class="list-unstyled">
-    @if (Model.HasPreviousPage)
+    @if (Model.HasNextPage)
     {
         <li class="pull-left">
-            <a href="@Url.Action(null, new { page = Model.PreviousPage })" class="btn btn-primary">
+            <a href="@Url.Action(null, new { page = Model.NextPage })" class="btn btn-primary">
                 <i class="glyphicon glyphicon-chevron-left"></i>
-                Newer Posts
+                Older Posts
             </a>
         </li>
     }
 
-    @if (Model.HasNextPage)
+    @if (Model.HasPreviousPage)
     {
         <li class="pull-right">
-            <a href="@Url.Action(null, new { page = Model.NextPage })" class="btn btn-primary">
+            <a href="@Url.Action(null, new { page = Model.PreviousPage })" class="btn btn-primary">
                 <i class="glyphicon glyphicon-chevron-right"></i>
-                Older Posts
+                Newer Posts
             </a>
         </li>
     }
