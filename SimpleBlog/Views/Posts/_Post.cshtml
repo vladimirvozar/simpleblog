@@ -14,6 +14,6 @@
                 </li>
             }
         </ul>
-        Posted: @((int)(DateTime.UtcNow - Model.CreatedAt).TotalDays) days ago
+        Posted on: @String.Format("{0:ddd, MMM d, yyyy}", Model.CreatedAt)
     </footer>
 </article>
