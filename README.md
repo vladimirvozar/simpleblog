@@ -1,6 +1,6 @@
 ## Description
 
-A **Simple Blog** is full ASP.NET MVC application that supports users, roles, posts and tags. Application covers most important features of ASP.NET MVC: routing, areas, asset bundling, controllers, the Razor view engine, data binding and validation. Data is being handled using the mature and very powerful nHibernate OR/M to access database; and the Fluent Migrator database migration framework to version database schema in source control. Covered are also security issues - from CSRF and XSS attacks, to making sure errors aren’t displayed to customers. User interface is implemented using both jQuery and Bootstrap 3.
+A **Simple Blog** is a full ASP.NET MVC application that supports users, roles, posts, and tags. The application covers the most important features of ASP.NET MVC: routing, areas, asset bundling, controllers, the Razor view engine, data binding, and validation. Data is being handled using the mature and very powerful NHibernate OR/M to access the database, and the Fluent Migrator database migration framework to version database schema in source control. Covered are also security issues - from CSRF and XSS attacks to make sure errors aren’t displayed to customers. The user interface is implemented using both jQuery and Bootstrap 3.
 
 ## Prerequisites:
 
@@ -29,10 +29,10 @@ A **Simple Blog** is full ASP.NET MVC application that supports users, roles, po
 - backend usage
 
 **Frontend:**
-Homepage displays list of paginated posts, ordered by creation date. Clicking on certain post title, opens posts page. On a sidebar are displayed tag names, and number that shows how many times have certain tag been used in blog posts. Tag field is at the same time a progress bar that presents percentage of tag usage. Clicking on a tag will render posts that are tagged with clicked tag.
+The homepage displays a list of paginated posts, ordered by creation date. Clicking on certain post title opens posts page. On a sidebar are displayed tag names and number that shows how many times have certain tag been used in blog posts. Tag field is at the same time a progress bar that presents the percentage of tag usage. Clicking on a tag will render posts that are tagged with the clicked tag.
 
 **Backend:**
-User can login to application going to **/login** page. 
-When user with **admin** role logs in, an option for *Posts management* becomes available on the sidebar. Clicking on this option gets user to the admin area of Simple Blog application, where user (*admin*) can manage both *posts* and *users*. 
-User can logout going to the **/logout** page.
+Users can log in to the application going to **/login** page. 
+When a user with **admin** role logs in, an option for *Posts management* becomes available on the sidebar. Clicking on this option gets users to the admin area of Simple Blog application, where users (*admin*) can manage both *posts* and *users*. 
+Users can logout going to the **/logout** page.
 
